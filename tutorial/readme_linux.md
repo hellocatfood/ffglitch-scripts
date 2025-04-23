@@ -7,7 +7,7 @@ wget https://ffglitch.org/pub/bin/linux64/ffglitch-0.10.2-linux-x86_64.zip && \
 unzip x ffglitch-0.10.2-linux-x86_64.zip && \
 mkdir -p bin && \
 mv ffglitch-0.10.2-linux-x86_64/* bin/ && \
-rmdir ffglitch-0.10.2-linux-x86_64 && \
+rm -rf ffglitch-0.10.2-linux-x86_64 && \
 rm ffglitch-0.10.2-linux-x86_64.zip
 ```
 
@@ -27,6 +27,6 @@ mv ffglitch-0.10.2-linux-x86_64/* bin/
 ```
 - Cleanup
 ```
-rmdir ffglitch-0.10.2-linux-x86_64
+rm -rf ffglitch-0.10.2-linux-x86_64
 rm ffglitch-0.10.2-linux-x86_64.zip
 ```
